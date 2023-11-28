@@ -1,0 +1,78 @@
+* {box-sizing: border-box}
+
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text], input[type=password]{
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color: #a7aa04;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:3;
+}
+
+
+
+.loginbtn {
+  float: left;
+  width: 50%;
+}
+
+
+.container {
+  padding: 16px;
+  width: 100%;
+  margin: auto;
+  
+  
+}
+.hehe{
+  width: 30%;
+  border-radius: 10px;
+  margin:auto ;
+  height: 500px;
+}
+.haha{
+  width: 30%;
+  border-radius: 10px;
+  margin:auto ;
+  height: 600px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+ .loginbtn {
+    width: 100%;
+  }
